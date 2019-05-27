@@ -1,1 +1,16 @@
 /* All styles for your Card Components live here */
+
+.banner-img {
+    width: 62%;
+    margin-left: 79px;
+}
+
+.cardContentP {
+    margin-left: 79px;
+    width: 66%;
+}
+
+.reactLink {
+    margin-left: 79px;
+}
+

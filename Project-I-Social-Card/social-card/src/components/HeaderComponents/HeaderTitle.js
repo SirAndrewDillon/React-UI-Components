@@ -1,12 +1,14 @@
 import React from 'react';
 import './Header.css';
 
-const HeadedrTitle = () => {
+const HeaderTitle = props => {
     return (
-        <div class = "headerTitle">
-            <h4>Lambda School</h4>
-            <span>@lambdaSchool</span>
-            <span>28 May</span>
-        </div>
+      <div className="header-title">
+        <h2>Lambda School</h2>
+        <h3>@LambdaSchool • 28 May</h3>
+
+      </div>
     );
-}
+  };
+
+  export default HeaderTitle;

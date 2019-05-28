@@ -1,8 +1,10 @@
 import React from 'react';
 import './Card.css';
 
-const CardBanner = () => {
+const CardBanner = props => {
     return (
-        <img class="banner-img" src="https://tk-assets.lambdaschool.com/fcd75197-7d12-46ec-bc9e-4130f34822fa_reactbackground.png"alt=""/>
-    );
+        <img src="https://ibin.co/3wnC6SgIOJud.png" alt="react logo" className='card-img'></img>
+    )
 }
+
+export default CardBanner;

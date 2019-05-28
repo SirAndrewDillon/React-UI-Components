@@ -1,19 +1,19 @@
 import React from 'react';
 import './Header.css';
-import HeaderContent from './HeaderContent';
-import HeaderTitle from './HeaderTitle';
-import ImageThumbnail from './ImageThumbnail'
+import HeaderContent from "./HeaderContent";
+import HeaderTitle from "./HeaderTitle";
+import ImageThumbnail from "./ImageThumbnail";
 
-const HeaderContainer = () => {
+const HeaderContainer = props => {
     return (
-        <div className = "container">
-            <div class = "theImg">
-                <ImageThumbnail />
-                <HeaderTitle />
-            </div>
-            <HeaderContent />
+      <div className="header-container">
+        <ImageThumbnail />
+        <div className="header-text">
+          <HeaderTitle />
+          <HeaderContent />
         </div>
-       );
-    }
-
-    export default HeaderContainer;
+      </div>
+    );
+  };
+  
+  export default HeaderContainer;

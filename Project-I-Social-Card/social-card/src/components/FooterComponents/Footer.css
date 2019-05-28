@@ -1,10 +1,3 @@
-.footerDiv {
-    display: flex;
-    margin-left: 69px;
-}
-
-.footerP {
-    margin-left: 10px;
-    background: blue;
-    padding: 5px;
+.footer {
+    padding-left: 70px;
 }
